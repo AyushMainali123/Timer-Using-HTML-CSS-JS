@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>My Stop Watch</title>
+	<script>
+		const myHr = document.querySelector('.hour');
+		const myMin = document.querySelector('.min');
+		const mySec = document.querySelector('.sec');
+		
+	</script>
+</head>
+<body>
+	<div id="wrapper">
+		<header>
+			<h1>My Timer</h1>
+		</header>
+	<section id="myTime">
+		<span class="time hour"></span>
+		<span class="time min"></span>
+		<span class="time sec"></span>
+		<span class="hrText text">Hour</span>
+		<span class="minText text">Minute</span>
+		<span class="secText text">Second</span>
+	</section>
+	<section id="myBtn">
+		<button>STOP</button>
+	</section>
+	<audio id="myMusic">
+		<source src="./audio/Kalimba.mp3" type="audio/mp3">
+	</audio>
+	</div>
+	<script src="mainjs.js"></script>
+</body>
+</html>

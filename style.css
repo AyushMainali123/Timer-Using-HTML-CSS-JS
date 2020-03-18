@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+html, body{
+    background-color: #272727;
+    height: 100vh;
+    max-width: 100vw;
+    border: 1px solid saddlebrown;
+}
+#wrapper{
+    margin: 5vw;
+    text-align: center;
+}
+header{
+    color: seashell;
+    font-weight: 1000;
+}
+#myTime{
+    margin: 30vh auto 10vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    column-gap: 15px;
+    position: relative;
+}
+.text{
+    color: powderblue;
+    font-size: 1.5rem;
+    font-weight: 1000;
+    text-align: center;
+}
+.time{
+    min-width: 33.33%;
+    font-weight: 1000;
+    border-radius: 15px;
+    font-size: 2rem;
+    color: floralwhite;
+    border: 2px solid blanchedalmond;
+    text-align: center;
+}
+.hour{
+    background-color: rgba(131, 189, 24, 0.8);
+}
+
+.min{
+    background-color: rgba(255, 68, 31, 0.8);
+}
+
+.sec{
+    background-color: rgba(109, 31, 255, 0.8);
+}
+
+
+#myBtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+}
+button{
+    display: block;
+    max-width: 5rem;
+    padding: 1.5rem;
+    background-color: orchid;
+    border: none;
+    border-radius: 15px;
+    color: #272727;
+    font-weight: 1000;
+    font-size: 1.2rem;
+    cursor: pointer;
+    display: none;
+}
